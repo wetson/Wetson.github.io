@@ -2,5 +2,3 @@ name: wetson, wetson home
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-gems:
-  - jekyll-feed
