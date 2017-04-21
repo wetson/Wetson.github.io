@@ -2,3 +2,6 @@ name: wetson, wetson home
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
+name: Blog of wetson
+description: This is a blog for my study
+url: http://wetson.github.io
