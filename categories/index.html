@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div class="row">
+	<ul class="col s12 m10 section">
+	　　{% for post in site.categories.[page.category] %}
+	　　　　<li class="card blog-item" data-category="{{post.category}}">
+				<div class="card-content">
+					<div class="card-title"><a href="/blog{{ post.url }}">{{ post.title }}</a></div>
+				  	<p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+					<p>{{ post.date | date: "%Y年%m月%d日" }}</p>
+				</div>
+		</li>
+	　　{% endfor %}
+	</ul>
+</div>
+<ul class="sidebar">
+	<li><a class="sidebar-btn" href="{{site.baseurl}}" data-category="all">all</a></li>
+	{% for category in site.categories %}
+	        {% for post in category.first %}<li><a class="sidebar-btn" href="{{site.baseurl}}/categories/{{ category | first }}" data-category="{{category.first}}">({{category.last.size}})</a></li>
+	        {% endfor %}
+	{% endfor %}
+</ul>
