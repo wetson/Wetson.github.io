@@ -6,11 +6,10 @@ title: wetson's Blog
 	<ul class="posts">
 	
 
-	
-	var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
-    data = JSON.parse(dataStr),
-    curTag = $.query.get("cat"),
-    archieves = data[curTag];	
+{% for category in site.categories %}
+        {% for post in category.first %}<li><a class="sidebar-btn" href="{{site.baseurl}}/categories/{{ category | first }}">{{category.first}}({{category.last.size}})</a></li>
+        {% endfor %}
+{% endfor %}
 		
 	<h3>Recent articles</h3>
 	  {% for post in site.posts %}
