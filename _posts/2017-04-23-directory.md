@@ -4,7 +4,7 @@ title: ubuntu系统目录结构
 subtitle: 系统目录
 author: wetson
 date: 2017-04-23 13:32:29 +0800
-categories: 
+categories: linux
 tag: 
 ---
 ubuntu没有盘符的概念，只有一个根目录/，所有文件都在它下面  

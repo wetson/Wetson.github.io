@@ -2,6 +2,7 @@
 layout: post
 title: "wetson, Launches Site"
 date: 2017-04-18
+categories: 搭建
 ---
 
 ###	感谢

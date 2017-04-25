@@ -4,7 +4,7 @@ title: ubuntu基础命令
 subtitle: 
 author: wetson
 date: 2017-04-22 14:27:54 +0800
-categories: 
+categories: linux
 tag: 
 ---
 

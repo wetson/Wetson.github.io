@@ -16,7 +16,7 @@ layout: default
 	</ul>
 </div>
 <ul class="sidebar">
-	<li><a class="sidebar-btn" href="{{site.url}}" data-category="all">all</a></li>
+	
 	{% for category in site.categories %}
 	        {% for post in category.first %}<li><a class="sidebar-btn" href="/categories/{{ category | first }}" data-category="{{category.first}}">{{category.first}}({{category.last.size}})</a></li>
 	        {% endfor %}
