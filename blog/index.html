@@ -4,7 +4,7 @@ title: wetson's Blog
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-	//显示文章类型
+	
 	<h4>Category</h4>
 	<ul>
     	{% for category in site.categories %}
@@ -13,7 +13,7 @@ title: wetson's Blog
 		 </li>
    	 {% endfor %}
 	</ul>
-	//显示最近文章	
+	
 	<h4>Recent articles</h4>
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
