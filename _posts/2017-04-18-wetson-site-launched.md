@@ -4,5 +4,8 @@ title: "wetson, Launches Site"
 date: 2017-04-18
 ---
 
-Well. Finally got around to putting this old website together.
-Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+###	感谢
+
+[jekyll在github一步步搭建](http://jmcglone.com/guides/github-pages/) 
+[jekyll搭建](https://dolinks.github.io/blog/2017/03/13/jekyinstall.html) 
+官方[Jekyll](https://jekyllrb.com/) 

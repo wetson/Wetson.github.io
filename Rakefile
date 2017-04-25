@@ -33,5 +33,5 @@ task :new do
             file.puts "tag: #{@tag}"
             file.puts "---"
     end
-    exec "vi  #{@post_name}"
+    exec "remarkable #{@post_name}"
 end
