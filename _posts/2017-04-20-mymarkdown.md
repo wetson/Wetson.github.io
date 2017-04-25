@@ -4,7 +4,7 @@ title: 初学Markdown
 subtitle: 
 author: pizida
 date: 2017-04-20 16:25:07 +0800
-categories: 技术
+categories: markdown
 tag: Markdown
 ---
 # Markdown快速入门
